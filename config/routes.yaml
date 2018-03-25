@@ -1,3 +1,6 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+# config/routes.yaml
+
+# the "s4_lucky_number" route name is not important yet
+s4_lucky_number:
+    path: /lucky/number
+    controller: App\Controller\LuckyController::number
